@@ -1,5 +1,8 @@
 require('./bootstrap');
 
+const d3 = require("d3");
+
+
 var Turbolinks = require("turbolinks")
 Turbolinks.start()
 
