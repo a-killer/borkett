@@ -15,7 +15,7 @@
 		<link rel="shortcut icon" href="{{ url(asset('favicon.ico')) }}">
 
         <!-- Fonts -->
-
+        <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
 
         <!-- Styles -->
         <link rel="stylesheet" href="{{ url(mix('css/app.css')) }}">
@@ -25,6 +25,7 @@
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
         <script src="{{ url(mix('js/app.js')) }}" defer></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.min.js' async></script>
     </head>
 
     <body>
